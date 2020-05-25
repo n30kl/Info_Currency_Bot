@@ -29,7 +29,7 @@ namespace Valerias_Test_Bot
 
         public static void Main(string[] args)
         {
-            botClient = new TelegramBotClient("") { Timeout = TimeSpan.FromSeconds(1) };
+            botClient = new TelegramBotClient("1199823614:AAG66AwMnQVAuDcgt7rhq18tmXa4raRObBM") { Timeout = TimeSpan.FromSeconds(1) };
 
             botClient.OnMessage += Bot_OnMessage;
 
