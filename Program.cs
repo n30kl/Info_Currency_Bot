@@ -35,7 +35,7 @@ namespace Valerias_Test_Bot
 
             botClient.StartReceiving();
 
-            Console.ReadKey();
+            Console.ReadLine();
 
             botClient.StopReceiving();
         }
